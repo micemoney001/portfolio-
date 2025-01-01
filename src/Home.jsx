@@ -4,6 +4,7 @@ import country from './assets/nigeria.png'
 import student from './assets/studies.png'
 import email from './assets/email.png'
 import tg from './assets/email.png'
+import Kolo from './Kolo'
 
 const Home = () => {
     return (

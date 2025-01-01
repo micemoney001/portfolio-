@@ -112,3 +112,24 @@ img{
 .ndp img{
   width: 40px;
 }
+
+.dark{
+  padding: 90px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color:white;
+  box-shadow: inset 0px 0px 19px white;
+}
+.light{
+  padding: 90px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  color:black;
+  box-shadow: inset 0px 0px 19px black;
+}
