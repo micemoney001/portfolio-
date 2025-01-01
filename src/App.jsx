@@ -7,7 +7,7 @@ import face from './assets/facebook.png'
 import instal from './assets/instalite.png'
 import inst from './assets/insta.png'
 import git from './assets/github.png'
-import twi from './assets/twitter .png'
+import twi from './assets/twitter.png'
 import Pro from './Pro';
 
 const App = () => {
