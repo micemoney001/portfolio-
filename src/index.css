@@ -44,7 +44,7 @@ img{
 .abt2{
   background-color: black;
   color: white;
-  width: 600px;
+  width: 300px;
   padding: 30px;
   margin: auto;
 }
@@ -61,7 +61,7 @@ img{
 .chop{
   background-color: white;
   box-shadow: inset 0px 0px 30px gray;
-  width: 400px;
+  width: 250px;
   padding: 10px 25px;
   font-family: Arial, Helvetica, sans-serif;
   margin: 10px;
