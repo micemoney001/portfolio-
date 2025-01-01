@@ -59,6 +59,7 @@ img{
 
 .chop{
   background-color: white;
+  color: black;
   box-shadow: inset 0px 0px 30px gray;
   width: 250px;
   padding: 10px 25px;

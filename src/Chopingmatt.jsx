@@ -2,20 +2,20 @@ import React from 'react'
 
 const Chopingmatt = (props) => {
   return (
-    <div> 
-        <div className='chop'>
+    <div>
+      <div className='chop'>
         <div>
-            <img src={props.image} alt="" />
+          <img src={props.image} alt="" />
         </div>
         <h3>{props.title}</h3>
         <p>
-            {props.description}
+          {props.description}
         </p>
         <div>
-            <button>${props.price}</button>
-            <button onClick={props.btn}>Delete</button>
+          <button>${props.price}</button>
+          <button onClick={props.btn}>Delete</button>
         </div>
-    </div>
+      </div>
     </div>
   )
 }
