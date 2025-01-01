@@ -1,12 +1,16 @@
 nav{
-  background-color: black;
+  /* background-color: black;
   color: white;
-  padding: 20px;
+  padding: 20px; */
 }
 nav ul{
   display: flex;
   list-style-type: none;
   justify-content: space-between;
+}
+nav ul li{
+  background-color:red;
+  padding: 10px 20px;
 }
 img{
   width: 150px;
@@ -23,6 +27,10 @@ img{
 .ul2{
   font-family: Arial, Helvetica;
   list-style-type: none;
+}
+.ul2 li{
+  display: flex;
+  flex-direction: row;
 }
 .abt1{
   padding: 10px;
@@ -69,4 +77,35 @@ img{
   flex-direction:row;
   flex-wrap: wrap;
   justify-content: space-evenly;
+}
+
+/* @media screen and (max-width:768px) {
+  .iiop{
+    background-color: red;
+  }
+  .ist{
+    background-color: cadetblue;
+    color: red;
+  }
+
+  img{
+    width: 50px;
+  }
+} */
+ 
+
+.iconss{
+  /* background-color: black; */
+}
+.iconss ul {
+  list-style-type: none;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.iconss img{
+  width: 70px;
+}
+.ndp img{
+  width: 40px;
 }
