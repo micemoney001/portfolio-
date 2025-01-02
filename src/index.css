@@ -15,7 +15,7 @@ nav ul li {
   padding: 10px 10px;
 }
 
-img {
+.ist img {
   width: 100px;
   border-radius: 50px;
 }
@@ -107,6 +107,15 @@ img {
     margin-top: 10px;
   }
 
+  .ipi{
+    display: block;
+    flex-direction: column;
+  }
+
+}
+.kplpi{
+  color: black;
+  background-color: red;
 }
 
 .iiop {
@@ -147,4 +156,15 @@ img {
   background-color: white;
   color: black;
   box-shadow: inset 0px 0px 19px black;
+}
+.imm{
+ width: 300px;
+ margin-bottom: 50px;
+}
+.ipi{
+  display: flex;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }

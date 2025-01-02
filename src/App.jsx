@@ -8,7 +8,7 @@ import instal from './assets/instalite.png'
 import inst from './assets/insta.png'
 import git from './assets/github.png'
 import twi from './assets/Twitter.png'
-import Pro from './Pro';
+import God from './God';
 
 const App = () => {
   const [mode, setMode] = useState(true)
@@ -31,7 +31,8 @@ const App = () => {
                 <li><Link className='llink' to="/">HOME </Link> </li>
                 <li><Link className='llink' to="/about">ABOUT</Link></li>
                 <li><Link className='llink' to="/chooping">CHOPPING</Link></li>
-                <li><Link className='llink' to="/poject">PROJECT</Link></li>
+                <li><Link className='llink' to="/po">pro</Link></li>
+                {/* <li><Link className='llink' to="/poje">PROJECT</Link></li> */}
               </ul>
             </nav>
 
@@ -42,7 +43,8 @@ const App = () => {
               <Route path='/' element={<Home />} />
               <Route path='/about' element={<About />} />
               <Route path='/chooping' element={<Chop2 />} />
-              <Route path='/project' element={<Pro />} />
+              <Route path='po' element={<God/>}/>
+              {/* <Route path='/proje' element={<Project/>} /> */}
             </Routes>
           </Router>
 
