@@ -1,63 +1,73 @@
-nav{
+nav {
   /* background-color: black;
   color: white;
   padding: 20px; */
 }
-nav ul{
+
+nav ul {
   display: flex;
   list-style-type: none;
   justify-content: space-between;
 }
-nav ul li{
-  background-color:red;
+
+nav ul li {
+  background-color: red;
   padding: 10px 10px;
 }
-img{
+
+img {
   width: 100px;
   border-radius: 50px;
 }
-.ist{
+
+.ist {
   display: flex;
   justify-content: space-between;
   padding: 10px;
 }
-.ul2{
+
+.ul2 {
   padding: 10px;
 }
-.ul2{
+
+.ul2 {
   font-family: Arial, Helvetica;
   list-style-type: none;
 }
-.ul2 li{
+
+.ul2 li {
   display: flex;
   flex-direction: row;
 }
-.abt1{
-  padding:5px;
+
+.abt1 {
+  padding: 5px;
   background-color: black;
   color: white;
   width: fit-content;
   text-align: center;
   margin: auto;
 }
-.abt2{
+
+.abt2 {
   background-color: black;
   color: white;
   width: 200px;
   padding: 30px;
   margin: auto;
 }
-.abt2 p{
-  font-family:Arial, Helvetica, sans-serif;
+
+.abt2 p {
+  font-family: Arial, Helvetica, sans-serif;
   font-size: medium;
 }
 
-.llink{
+.llink {
   text-decoration: none;
   color: white;
 }
 
-.chop{
+.chop {
   background-color: white;
   color: black;
   box-shadow: inset 0px 0px 30px gray;
@@ -66,64 +76,66 @@ img{
   font-family: Arial, Helvetica, sans-serif;
   margin: 10px;
   text-align: center;
-  }
-.chop img{
+}
+
+.chop img {
   width: 200px;
 }
-.api{
+
+.api {
 
   background-color: black;
   display: flex;
-  flex-direction:row;
+  flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
 
-/* @media screen and (max-width:768px) {
-  .iiop{
-    background-color: red;
-  }
-  .ist{
-    background-color: cadetblue;
-    color: red;
+@media screen and (max-width:768px) {
+  .ist {
+    display: block;
+    justify-content: space-between;
+    padding: 10px;
   }
 
-  img{
-    width: 50px;
-  }
-} */
- .iiop{
+}
+
+.iiop {
   background-color: cornflowerblue;
- }
- 
+}
 
-.iconss{
+
+.iconss {
   /* background-color: black; */
 }
+
 .iconss ul {
   list-style-type: none;
   display: flex;
   text-align: center;
   justify-content: center;
 }
-.iconss img{
-  width: 40px;
-}
-.ndp img{
+
+.iconss img {
   width: 40px;
 }
 
-.dark{
+.ndp img {
+  width: 40px;
+}
+
+.dark {
   display: flex;
   flex-direction: column;
   background-color: black;
-  color:white;
+  color: white;
   box-shadow: inset 0px 0px 19px white;
 }
-.light{
+
+.light {
   display: flex;
   flex-direction: column;
   background-color: white;
-  color:black;
+  color: black;
   box-shadow: inset 0px 0px 19px black;
 }
