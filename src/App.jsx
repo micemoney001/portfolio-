@@ -31,7 +31,7 @@ const App = () => {
                 <li><Link className='llink' to="/">HOME </Link> </li>
                 <li><Link className='llink' to="/about">ABOUT</Link></li>
                 <li><Link className='llink' to="/chooping">CHOPPING</Link></li>
-                <li><Link className='llink' to="/po">pro</Link></li>
+                <li><Link className='llink' to="/po">Project</Link></li>
                 {/* <li><Link className='llink' to="/poje">PROJECT</Link></li> */}
               </ul>
             </nav>
