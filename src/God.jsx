@@ -20,6 +20,7 @@ const God = () => {
                 </div>
             </div>
 
+
             <div className='ipi'>
                 <div>
                     <img className='imm' src={thre} alt="" />
@@ -28,6 +29,7 @@ const God = () => {
                     <img className='imm' src={four} alt="" />
                 </div>
             </div>
+
 
             <div className='ipi'>
                 <div>
