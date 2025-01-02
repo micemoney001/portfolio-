@@ -1,5 +1,5 @@
 import React from 'react'
-import noo from './assets/project7.png'
+import seven from './assets/project7.png'
 import one from './assets/project1.png'
 import two from './assets/project2.png'
 import thre from './assets/project3.png'
@@ -42,7 +42,7 @@ const God = () => {
 
             <div className='ipi'>
                 <div>
-                    <img className='imm' src={noo} alt="" />
+                    <img className='imm' src={seven} alt="" />
                 </div>
                 <div>
                     <img className='imm' src={eigth} alt="" />
