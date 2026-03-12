@@ -10,55 +10,52 @@ import eigth from './assets/project8.png'
 
 const God = () => {
     return (
-        <div className=''>
-            <div className='ipi'>
-                <div>
-                    <img className='imm' src={one} alt="" />
+        <div className='' id='kl'>
+            <div className="container-fluid">
+                <div className="row">
+                    <div className="col-md-6"  >
+                        <img src={one} alt="" id='ji' />
+                    </div>
+                    <div className="col-md-6" >
+                        <img src={two} alt="" id='ji' />
+                    </div>
                 </div>
-                <div>
-                    <img className='imm' src={two} alt="" />
+            </div>
+            <br />
+
+            <div className="container-fluid">
+                <div className="row">
+                    <div className="col-md-6"  >
+                        <img src={thre} alt="" id='ji' />
+                    </div>
+                    <div className="col-md-6" >
+                        <img src={four} alt="" id='ji' />
+                    </div>
                 </div>
             </div>
 
-
-            <div className='ipi'>
-                <div>
-                    <img className='imm' src={thre} alt="" />
-                </div>
-                <div>
-                    <img className='imm' src={four} alt="" />
-                </div>
-            </div>
-
-
-            <div className='ipi'>
-                <div>
-                    <img className='imm' src={five} alt="" />
-                </div>
-                <div>
-                    <img className='imm' src={six} alt="" />
+            <div className="container-fluid">
+                <div className="row">
+                    <div className="col-md-6"  >
+                        <img className='imm' src={five} alt=""  id='ji' />
+                    </div>
+                    <div className="col-md-6" >
+                          <img className='imm' src={six} alt="" id='ji' />
+                    </div>
                 </div>
             </div>
 
-            <div className='ipi'>
-                <div>
-                    <img className='imm' src={seven} alt="" />
-                </div>
-                <div>
-                    <img className='imm' src={eigth} alt="" />
+            
+            <div className="container-fluid">
+                <div className="row">
+                    <div className="col-md-6"  >
+                    <img className='imm' src={seven} alt="" id='ji' />
+                    </div>
+                    <div className="col-md-6" >
+                    <img className='imm' src={eigth} alt="" id='ji' />
+                    </div>
                 </div>
             </div>
-
-            <div className='ipi'></div>
-
-
-
-
-
-
-
-
-
 
         </div>
     )

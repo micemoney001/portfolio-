@@ -26,17 +26,64 @@ const App = () => {
           <Router>
 
 
-            <nav >
-              <ul>
-                <li><Link className='llink' to="/">HOME </Link> </li>
-                <li><Link className='llink' to="/about">ABOUT</Link></li>
-                <li><Link className='llink' to="/chooping">CHOPPING</Link></li>
-                <li><Link className='llink' to="/po">Project</Link></li>
-                {/* <li><Link className='llink' to="/poje">PROJECT</Link></li> */}
-              </ul>
-            </nav>
+            <nav class="navbar bg-body-tertiary fixed-top" id="hio">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">KARIMER CODER'S HUB</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">KARIMER CODER'S HUB</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href=""><Link className='llink' to="/">HOME </Link> </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#"><Link className='llink' to="/about">ABOUT</Link></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#"><Link className='llink' to="/chooping">CHOPPING</Link></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#"><Link className='llink' to="/po">Project</Link></a>
+                            </li>
 
-            <button onClick={handleMode} >{mode ? 'Dark Mode' : 'Light Mode'}</button>
+                            <button onClick={handleMode} >{mode ? 'Dark Mode' : 'Light Mode'}</button>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Link</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Dropdown
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li>
+                                        <h1 class="dropdown-divider"></h1>
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <form class="d-flex mt-3" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                            <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+            
 
 
             <Routes>
@@ -49,19 +96,7 @@ const App = () => {
           </Router>
 
 
-          <br /><br /><br /><br />
-
-          <div className='iconss'>
-            <ul>
-              <li><img src={face} alt="" /></li>
-              <li><img src={instal} alt="" /></li>
-              <li><img src={git} alt="" /></li>
-              <li><img src={inst} alt="" /></li>
-              <li><img src={twi} alt="" /></li>
-            </ul>
-          </div>
-
-          <br /><br /><br /><br /><br /><br />
+          
           
         </div>
       </div>
